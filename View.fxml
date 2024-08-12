@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.group5.demo.Controller">
+    <Label text="Enter something:" layoutX="14" layoutY="14" />
+    <TextField fx:id="inputField" layoutX="14" layoutY="30" />
+    <Button fx:id="submitButton" text="Submit" layoutX="14" layoutY="60" />
+    <Label fx:id="resultLabel" layoutX="14" layoutY="90" />
+</AnchorPane>
